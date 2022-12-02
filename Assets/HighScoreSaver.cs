@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class HighScoreSaver : MonoBehaviour
 {
+
     public const int NUM_HIGH_SCORES = 5;
+
     public const string NAME_KEY = "HSName";
     public const string SCORE_KEY = "HScore";
     [SerializeField] string playerName;

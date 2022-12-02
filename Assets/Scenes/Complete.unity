@@ -174,12 +174,14 @@ MonoBehaviour:
   - {fileID: 1252547034}
   - {fileID: 2144238109}
   - {fileID: 289307078}
+
   - {fileID: 163477520}
   scoreTexts:
   - {fileID: 116712330}
   - {fileID: 2145998663}
   - {fileID: 1134929769}
   - {fileID: 144961495}
+
   - {fileID: 2056776734}
 --- !u!1 &116712328
 GameObject:
@@ -813,6 +815,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377071472}
   m_CullTransparentMesh: 1
+
 --- !u!1 &575783097
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,6 +913,7 @@ GameObject:
   - component: {fileID: 609986545}
   - component: {fileID: 609986544}
   - component: {fileID: 609986548}
+
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1001,7 +1005,9 @@ RectTransform:
   - {fileID: 1134929768}
   - {fileID: 144961494}
   - {fileID: 2056776733}
+
   - {fileID: 1641453564}
+
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1010,6 +1016,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+
 --- !u!114 &609986548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1023,6 +1030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerNameInput: {fileID: 0}
+
 --- !u!1 &1134929767
 GameObject:
   m_ObjectHideFlags: 0
@@ -1267,6 +1275,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252547032}
   m_CullTransparentMesh: 1
+
 --- !u!1 &1641453563
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,6 +1410,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641453563}
   m_CullTransparentMesh: 1
+
 --- !u!1 &1802366468
 GameObject:
   m_ObjectHideFlags: 0
