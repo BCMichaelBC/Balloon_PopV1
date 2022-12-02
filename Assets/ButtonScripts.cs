@@ -27,6 +27,7 @@ public class ButtonScripts : MonoBehaviour
 
     public void MainMenu()
     {
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene("Menu");
     }
 
@@ -34,6 +35,7 @@ public class ButtonScripts : MonoBehaviour
     {
         string s = playerNameInput.text;
         PersistentData.Instance.SetName(s);
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene("level 1");
     }
 
