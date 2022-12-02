@@ -8,12 +8,15 @@ using UnityEngine.UI;
 public class ButtonScripts : MonoBehaviour
 {
     [SerializeField] InputField playerNameInput;
+    [SerializeField] string curName;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        curName = PersistentData.Instance.GetName();
+        playerNameInput.text = curName;
+
     }
 
     // Update is called once per frame

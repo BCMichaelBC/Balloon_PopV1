@@ -174,11 +174,13 @@ MonoBehaviour:
   - {fileID: 1252547034}
   - {fileID: 2144238109}
   - {fileID: 289307078}
+  - {fileID: 163477520}
   scoreTexts:
   - {fileID: 116712330}
   - {fileID: 2145998663}
   - {fileID: 1134929769}
   - {fileID: 144961495}
+  - {fileID: 2056776734}
 --- !u!1 &116712328
 GameObject:
   m_ObjectHideFlags: 0
