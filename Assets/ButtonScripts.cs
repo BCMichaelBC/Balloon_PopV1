@@ -9,11 +9,17 @@ public class ButtonScripts : MonoBehaviour
 {
     [SerializeField] InputField playerNameInput;
 
+    [SerializeField] string curName;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
+        curName = PersistentData.Instance.GetName();
+        playerNameInput.text = curName;
+
     }
 
     // Update is called once per frame
@@ -24,6 +30,9 @@ public class ButtonScripts : MonoBehaviour
 
     public void MainMenu()
     {
+
+        Time.timeScale = 1.0f;
+
         SceneManager.LoadScene("Menu");
     }
 
@@ -31,6 +40,9 @@ public class ButtonScripts : MonoBehaviour
     {
         string s = playerNameInput.text;
         PersistentData.Instance.SetName(s);
+
+        Time.timeScale = 1.0f;
+
         SceneManager.LoadScene("level 1");
     }
 
